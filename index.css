@@ -1,3 +1,45 @@
 body{
    font-family: "Montserrat";
+
+   text-align: center;
+
+}
+.dateselect{
+    border: 1px solid black;
+
+    width:212px;
+    display: flex;
+    justify-content: space-between;
+}
+.dateselect input{
+    border:none;
+    outline: none;
+}
+.dateselect button{
+    background-color:white;
+    border: none;
+    border-left:1px solid black;
+    outline: none;
+    padding:5px;
+}
+.picker{
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+.container-date{
+    border: 1px solid black;
+    width: fit-content;
+}
+table{
+    width: 10%;
+    border-collapse: collapse;
+}
+
+ td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
 }
